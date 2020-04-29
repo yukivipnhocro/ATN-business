@@ -16,7 +16,55 @@
 .carousel-inner img{
   width:100%;
 }
+	.navigate ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  background:black;
+ 
+}
+.navigate li{
+  display: inline-table;
+  width:150px;
+  height: 30px;
+  line-height: 30px;
+  text-align:center;
+}
+.navigate li a{
+  font-family: verdana;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+ 
 
+}
+.navigate li a:hover{
+	display:block;
+	background:white;
+	color:red;
+	font-style:italic;
+}
+h3{
+	font-size:50px;
+	margin-left:240px;
+}
+table{
+	margin-left:250px;
+	
+}
+table,th,  td{
+            border:3px solid black;
+			color:white;
+			background:green;
+        }
+		th{
+			
+			text-align:center;
+			background:black;
+		}
+        td{
+            padding:20px 90px;
+        }
 footer {
   background-color: black;
   margin-top: 0.2em;
