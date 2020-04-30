@@ -68,6 +68,15 @@ table,th,  td{
 h1{
 			text-align:center;
 		}
+.seemore{
+			margin-top:12px;
+		}
+		.collapse li{
+			font-weight:bold;
+		}
+		.collapse p{
+			font-style:italic;
+		}
 footer {
   background-color: black;
   margin-top: 0.2em;
