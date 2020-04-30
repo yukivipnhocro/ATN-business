@@ -12,7 +12,9 @@
 .navbar img{
 	margin:0;
 }
-
+.collapse li{
+	font-weight:bold;
+}
 body{
 	margin:0;
 	padding:0;
