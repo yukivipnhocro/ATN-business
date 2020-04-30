@@ -10,6 +10,9 @@
 .navbar img{
 	margin:0;
 }
+.collapse li{
+	font-weight:bold;
+}
 
 body{
  background-image:url("https://previews.123rf.com/images/goodmoments/goodmoments1704/goodmoments170400285/76827218-top-view-on-colorful-toy-bricks-on-a-white-wooden-background-toys-in-the-table.jpg");
