@@ -37,11 +37,18 @@ input{
 <script type="text/javascript">
  function getInfo()
  {
+	 var store= document.getElementById("store").value;
       var fullname= document.getElementById("fullname").value;
 	  var email=document.getElementById("email").value;
 	  var address=document.getElementById("address").value;
 	  var phone=document.getElementById("phone").value;
 	  //check information input into form>
+	  if(store==""){
+	  	  document.getElementById("errorstore").innerHTML="Please input your store name";
+	  }
+	  else{
+	  	  document.getElementById("errorstore").innerHTML="";
+	  }
 	  if(fullname==""){
 	  	  document.getElementById("errorname").innerHTML="Please input your product id";
 	  }
@@ -69,6 +76,7 @@ input{
 	  if(fullname && email && address && phone){
 	  
 	 info="YOUR BILL IS:&nbsp"+"<br/>";
+		   info += "Your store name is&nbsp;"+store+"<br/>";
 	  	  info += "Your product ID is&nbsp;"+fullname+"<br/>";
 		  info += "Your product name is&nbsp;"+email+"<br/>";
 		  info += "Your amount is&nbsp;"+address+"<br/>";
@@ -92,12 +100,7 @@ input{
   		</button>
 <div class="collapse navbar-collapse" id="navbarResponsive">
   <ul class="navbar-nav ml-auto">
-    <li class="nav-item">
-      <a class="nav-link active" href="boostrap.html">Home</a>
-    </li>
-    <li class="nav-item"><a class="nav-link " href="profile1.html">Profile</a></li>
-    <li class="nav-item"><a class="nav-link " href="product.html">Product</a></li>
-	 <li class="nav-item"><a class="nav-link " href="report.html">Report</a></li>
+    <li class="nav-item"><a class="nav-link " href="product1.html">Product</a></li>
 	  <li class="nav-item"><a class="nav-link " href="order.html">Order</a></li>
   </ul>
 </div>
@@ -123,6 +126,10 @@ input{
     </div>
 	<h1>Order</h1>
  <form action =" " method="post">
+	 <label>Store Name</label>
+ <input type ="text" name ="store" id="store" value="" />
+ <span id="errorstore" class="error"></span>
+ <br/>
  <label>Product ID</label>
  <input type ="text" name ="fullname" id="fullname" value="" />
  <span id="errorname" class="error"></span>
