@@ -1,0 +1,153 @@
+﻿.navbar{
+  background-color:  rgba(230, 230, 0,0.9)!important;
+  margin-right:-20px!important;
+}
+.navbar li a {
+  color:white !important;
+}
+.navbar li a:hover{
+  color:black!important;
+}
+.navbar img{
+	margin:0;
+}
+.collapse li{
+font-weight:bold;
+}
+body{
+	background-image:url("https://previews.123rf.com/images/goodmoments/goodmoments1704/goodmoments170400285/76827218-top-view-on-colorful-toy-bricks-on-a-white-wooden-background-toys-in-the-table.jpg");
+}
+.container{
+margin-top:50px;
+	background:white;
+	height:500px;
+	border:5px solid black;
+	border-radius:25px;
+}
+.container h3{
+	padding-left:400px;
+	padding-top:150px;
+}
+.container p{
+	padding-left:250px;
+}
+.btn{
+	margin-left:350px;
+	padding:0 20px;
+	height:50px;
+	line-height:50px;
+}
+#btn1{
+position:relative;
+left:250px;
+bottom:50px;
+}
+
+		
+		.main{
+			width:100%;
+			margin-top:30px;
+			
+		}
+		.producttitle  p{
+		font-weight:bold;
+		font-size:20px;
+		background:green;
+		margin-right:-30px;
+		text-align:center;
+		padding-left:30px;
+		color:white;
+		}
+		.product ul {
+			list-style-type:none;
+			margin:0;
+			padding:0;
+
+		}
+		.product ul li{
+			border:3px solid black;
+			width:300px;
+		background:yellow;
+	margin-left:100px;
+			display:inline-table;
+			margin-top:-10px;
+		
+		}
+		.product li img{
+			position:relative;
+		
+						
+		}
+		#recorner{
+			background:blue;
+			color:white;
+			font-weight:bold;
+			text-align:center;
+		}
+		
+		p.productname{	
+			background:red;
+			width:200px;
+	        margin-left:50px;
+			border-radius:25px;
+			margin-top:20px;
+			text-align:center;
+			color:white;
+			font-weight:bold;
+
+		}
+		.productname a{
+			color:white;
+		}
+	
+		.productname a:hover{
+		color:black;
+			text-decoration:none;
+			background:white;
+			display:block;
+			border-radius:25px;
+		}
+		
+		
+		p.price {
+			background:red;
+			width:200px;
+	        margin-left:50px;
+			border-radius:25px;
+			text-align:center;
+			color:white;
+			font-weight:bold;
+			
+		}
+		
+		.product2 {
+			
+			margin-top:20px;
+		}
+
+	footer {
+  background-color: black;
+  margin-top: 0.2em;
+  padding: 1em 0.2em;
+  position:relative;
+  top:40px;
+  margin-right:-20px;
+}
+footer p{
+  padding-left: 30em;
+  
+  color:white;
+}
+footer a{
+text-decoration:none;
+color:white;
+padding-left:80px;
+}
+footer a:hover{
+	text-decoration:none;
+	color:white;
+}
+footer img{
+	float:left;
+	margin-bottom:
+}	
